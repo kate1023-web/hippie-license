@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hippie-license/static/css/main.a25c8a50.css",
-    "main.js": "/hippie-license/static/js/main.b7699cb7.js",
+    "main.js": "/hippie-license/static/js/main.ff50db5b.js",
     "static/js/453.284f1ac8.chunk.js": "/hippie-license/static/js/453.284f1ac8.chunk.js",
     "static/media/Nino_v2.png": "/hippie-license/static/media/Nino_v2.482b606a00a3f620e111.png",
     "static/media/Nino_Recap.png": "/hippie-license/static/media/Nino_Recap.606fb15dd8d04bcfe85e.png",
@@ -37,11 +37,11 @@
     "index.html": "/hippie-license/index.html",
     "static/media/Question_N.svg": "/hippie-license/static/media/Question_N.1243aee25b0f900569f793cd73827ad3.svg",
     "main.a25c8a50.css.map": "/hippie-license/static/css/main.a25c8a50.css.map",
-    "main.b7699cb7.js.map": "/hippie-license/static/js/main.b7699cb7.js.map",
+    "main.ff50db5b.js.map": "/hippie-license/static/js/main.ff50db5b.js.map",
     "453.284f1ac8.chunk.js.map": "/hippie-license/static/js/453.284f1ac8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a25c8a50.css",
-    "static/js/main.b7699cb7.js"
+    "static/js/main.ff50db5b.js"
   ]
 }
