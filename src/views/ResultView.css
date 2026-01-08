@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'SchoolSafetyStubbyChalk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2508-2@1.0/HakgyoansimMondangbunfilR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.answer-text {
+  font-family: 'SchoolSafetyStubbyChalk', sans-serif;
+  color: #7B5323;
+  /* 답변이 길어질 수 있으므로 줄바꿈을 허용하는 것이 안전합니다 */
+  white-space: pre-wrap; 
+  word-break: keep-all;
+  pointer-events: none;
+  letter-spacing: -0.04em;
+  text-align: left;
+  line-height: 1.2;
+}

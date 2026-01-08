@@ -1,0 +1,25 @@
+/* GameLayout.css */
+
+@keyframes tilt-shake {
+  0% { transform: translate(-50%, -50%) rotate(2deg); }
+  50% { transform: translate(-50%, -50%) rotate(-2deg); }
+  100% { transform: translate(-50%, -50%) rotate(2deg); }
+}
+
+.tilting-logo {
+  position: absolute;
+  top: 50%;
+  left: 49.95%;
+  width: 84.5%;
+  z-index: 10;
+
+  /* 1. 스톱모션 효과: steps(개수)를 사용하면 뚝딱뚝딱 끊어서 움직입니다. */
+  /* 2초 동안 4단계로 끊어서 무한 반복 */
+  animation: tilt-shake 1.6s steps(1) infinite;
+
+  /* 2. 고정점 수정: 회전의 중심축을 이미지의 정확한 중앙(50% 50%)으로 고정 */
+  transform-origin: 30% 50%; /* 왼 오 */
+  
+  /* 만약 이미지가 오른쪽으로 쏠려 보인다면 중심을 왼쪽으로 살짝 옮길 수도 있습니다. 
+     예: transform-origin: 40% 50%; */
+}
